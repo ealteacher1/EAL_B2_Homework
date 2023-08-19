@@ -1,6 +1,6 @@
-package constructor_ns;
+package constructor_nsURMIN;
 
-public class Class_E {
+public class S65_T6_Class_E {
 	
 	
 	 public void CallingFromE() {
@@ -8,7 +8,7 @@ public class Class_E {
 	 }
 	 
 	public static void main(String[] args) {
-		Class_D obj= new Class_D();
+		S65_T6_Class_D obj= new S65_T6_Class_D();
 		obj.method1();
 		obj.method2(100);
 	    obj.method3("Name");

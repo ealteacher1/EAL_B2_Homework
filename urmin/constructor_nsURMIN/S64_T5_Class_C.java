@@ -1,12 +1,23 @@
-package constructor_ns;
+package constructor_nsURMIN;
 
-public class Class_C {
+
+
+public class S64_T5_Class_C {
 
     public static void main(String[] args) {
     	 System.out.println("Calling methods from Class_C main:");
-    	    Class_A obj = new Class_A();
+    	   S64_T5_Class_A obj = new  S64_T5_Class_A ();
+    	    obj.method1();
+    	    obj.method2(10);
+    	    obj.method3();
+    	    obj.method4("you");
     	    obj.method5();
     	    obj.method6(7.77);
+    	    obj.method10(false);
+    	    obj.method11();
+    	    obj.method12("place");
+    	    	
+    	    
     	    int[][] array2D = obj.method7();
     	    for (int[] row : array2D) {
     	        for (int num : row) {
@@ -21,10 +32,8 @@ public class Class_C {
    
     }
     public static void callingFromC() {
-        System.out.println("Calling methods from Class_C's CallingFromC:");
-        Class_A obj = new Class_A();
-        obj.method9();
-        obj.method10(false);
+    	 S64_T5_Class_A  obj = new  S64_T5_Class_A ();
+    	
         int[][] array2D = obj.method11();
         for (int[] row : array2D) {
             for (int num : row) {
@@ -36,16 +45,18 @@ public class Class_C {
         for (String str : array1D) {
             System.out.println(str);
         }
+        
+        
     }
 
 
-
+}
 
 
 
 
     
-	}
+	
 
 
 	

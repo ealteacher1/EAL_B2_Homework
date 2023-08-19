@@ -1,6 +1,6 @@
-package accessmodifier.com;
+package accessmodifier.urmin;
 
-public class Class_A {
+public class S86_T7_12Methods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

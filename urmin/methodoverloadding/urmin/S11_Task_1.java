@@ -1,6 +1,6 @@
-package methodoverloadding;
+package methodoverloadding.urmin;
 
-public class Task_1 {
+public class S11_Task_1 {
 
 	public static void main(String[] args) {
 		//1)Create 5 example of Calling by Object Reference/Class Variable
@@ -10,7 +10,7 @@ public class Task_1 {
 		String d = "Apple";
 		String a = "large";
 		
-		Task_1 obj = new Task_1();
+		S11_Task_1 obj = new S11_Task_1();
 		obj.method1(x);// called by variable
 		obj.method1(100);// called by value
 		obj.method2(y);
@@ -41,20 +41,20 @@ public class Task_1 {
 	     System.out.println("Student:" + size);
 	
 	 }
-	 public void method6(Task_1  salary ) {// by class type
+	 public void method6(S11_Task_1  salary ) {// by class type
 		 System.out.println("Print :"  + salary);
 		 
 	 }
-	 public void method7( Task_1 size) {
+	 public void method7( S11_Task_1 size) {
 			System.out.println("Student:" + size);
 	 }		
-	 public void method8(Task_1 names) {
+	 public void method8(S11_Task_1 names) {
 		 System.out.println("Student:" + names);
 	 }
-	 public void method9( Task_1 grades) {
+	 public void method9( S11_Task_1 grades) {
 			System.out.println("Student:" + grades);
 		}
-	 public void method10(Task_1 fruit) {
+	 public void method10(S11_Task_1 fruit) {
 		 System.out.println("Student:" + fruit);
 	 }
 }
