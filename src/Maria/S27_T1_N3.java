@@ -1,6 +1,6 @@
-package Student_Maria;
+package Maria;
 
-public class Task1WhileLoop {
+public class S27_T1_N3 {
 
 	public static void main(String[] args) {
 		
