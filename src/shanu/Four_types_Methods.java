@@ -1,0 +1,105 @@
+package shanu;
+
+public class Four_types_Methods {
+	public static void main(String[]args) {
+		//profitofcompany();
+		//monthlyIncome(16000, 2000, "June");
+		//test2();
+		test3("see ", "the value");
+		//expression();
+		//method1();
+		test4("hello", 100);
+	}
+	//without return
+	public static void profitofcompany() {
+		int income=100000;
+		int expense= 30000;
+		int profit=income-expense;
+		System.out.println(profit);
+			
+	}
+	public static void test1() {
+		String apple="red Apple";
+		String cherry="black cherry";
+		
+		String s="hi";
+		String h="hello";
+		String b=s+h;
+		System.out.println(b);
+		}
+	public static void method1() {
+		//Task for grading
+				int Math=60;
+				int Science=66;
+				int Physics=48;
+				int Biology =74;
+			//Calculating grading
+				int average=(Math+Science+Physics+Biology)/4;
+				System.out.println(average);
+			//task for statements
+				if (average>=90 && average <=100) {
+					System.out.println("Grade of student A");
+				}else if(average>=80 && average <=89 ){
+					System.out.println("Grade of student B");
+				}else if (average >=70 && average<=79) {
+					System.out.println("Grade of student C");
+				}else if(average>=60 && average<=69) {
+					System.out.println("Grade of student D");
+				}else {
+					System.out.println("Program is successfull");
+				}
+				
+	}
+	public static void expression() {
+		int a=100;
+		int b=50;
+		if(a>100) {
+			System.out.println("the condition if true");
+		}
+		else {
+			System.out.println("the condition is false");
+		}
+		
+		if(a<b||a>b) {
+			System.out.println("the statement called OR logic");
+		}else if(a>b){
+			System.out.println("that is match");
+		}else {
+			System.out.println("not match");
+		}
+		if(b%5==0) {
+			System.out.println("its called reminder");
+		}
+		else if(a%10==0) {
+			System.out.println("that is even no.");
+		}
+		else {
+			System.out.println("everything right");
+	}
+	}
+	//with arguments no return
+	
+	public static void monthlyIncome(int income,int expense,String nameOfMonth) {
+		int profit=income-expense;
+		System.out.println("profit of the month "+profit+ nameOfMonth);
+		
+		
+	}
+	public static void test4(String x,int b) {
+		System.out.println(b);
+		System.out.println(x);
+		
+	}
+	//with arguments &return
+	public static String test3(String apple,String cherry) {
+		String orange=(apple+cherry);
+		System.out.println(orange);
+		return orange;
+	}
+	//with return type
+	public static boolean test2(String x) {
+		boolean b=false;
+		return b;
+	}
+
+}
