@@ -1,4 +1,4 @@
-package My_Personal_Task;
+package Sardar_Rana_Homework;
 
 public class T_2_Array_One_dim_Sarder {
 

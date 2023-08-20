@@ -1,4 +1,4 @@
-package My_Personal_Task;
+package Sardar_Rana_Homework;
 
 public class S_6_Sel6_2_NSmethods_Sarder {
 
