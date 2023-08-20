@@ -1,6 +1,6 @@
-package slideTasksOf2930BySaniyad;
+package saniyad;
 
-public class ArrayTask1 {
+public class Arraytask12 {
 	public static void main(String[] args) {
 		int [] months=new int[10];
 		months[1]=4;
@@ -8,10 +8,9 @@ public class ArrayTask1 {
 		months[9]=44;
 		System.out.println("The length of the array "+months.length);
 		System.out.println("all the value below:");
-		for(int newMonths:months) {
-			System.out.println(newMonths);
+		for(int i=0;i<months.length;i++) {
+			System.out.println(months[i]);
 		}
-		
-		
+		System.out.println("The value of index number 5="+months[5]+  " index 7="+months[7]);
 	}
 }

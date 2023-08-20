@@ -1,4 +1,4 @@
-package slideTasksOf2930BySaniyad;
+package saniyad;
 
 public class TwoDimArray {
 	public static void main(String[] args) {

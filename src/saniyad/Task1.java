@@ -1,4 +1,4 @@
-package slideTasksOf2930BySaniyad;
+package saniyad;
 
 public class Task1 {
 
