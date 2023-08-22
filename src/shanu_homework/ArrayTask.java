@@ -1,54 +1,10 @@
-package shanu;
+package shanu_homework;
 
 public class ArrayTask {
 	
 	public static void main(String[]args) {
 	
-	 //Array task 2--------------
-    
 	
-	 String Bird[] = new String[11];
-	 Bird[0]="hi";
-	 Bird[2]="hello";
-	 Bird[5]="how are you";
-	  
-	  
-	  //1.
-	 System.out.println(Bird.length); 
-	 for(String x:Bird) {
-	  System.out.println(x); 
-	  }
-	  
-	  //2.
-	 System.out.println("print the value of array index 3= "+Bird[2]);
-	 System.out.println("print the value of array index 5= "+Bird[4]);
-	 //3.
-	 for(int
-	  k=0;k<=Bird.length-1;k++)
-	 { System.out.println(Bird[k]);
-	  
-	 }
-	 //4.
-	 for(int s=Bird.length-1;s>=0;s--) {
-		 System.out.println(Bird[s]);
-	 }
-	 //5.
-	 for(int f=5;f<=Bird.length-1;f++) {
-		 System.out.println(Bird[f]);
-		 if(f==8) {
-			 break;
-			 
-		 }
-		 
-	 }
-	 //6.
-	 for(int h=8;h<=Bird.length-1;h--) {
-		 System.out.println(Bird[h]);
-		 if(h==4) {
-			 break;
-		 }
-	 }
-
 	
 	//Array task 3--------------
 	 

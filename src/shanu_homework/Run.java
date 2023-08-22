@@ -1,4 +1,4 @@
-package shanu;
+package shanu_homework;
 
 public class Run {
 

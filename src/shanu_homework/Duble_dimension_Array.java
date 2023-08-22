@@ -1,4 +1,4 @@
-package shanu;
+package shanu_homework;
 
 public class Duble_dimension_Array {
 	//Array task 7

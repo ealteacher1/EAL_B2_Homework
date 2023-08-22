@@ -1,4 +1,4 @@
-package shanu;
+package shanu_homework;
 
 public class ForEachLoop_withArray {
 	public static void main (String[]args) {
