@@ -6,6 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="EAL/URMIN"/>
+=======
+	<classpathentry kind="src" path="ShanuTask/src"/>
+>>>>>>> branch 'master' of https://github.com/ealteacher1/EAL_B2_Homework.git
 	<classpathentry kind="output" path="bin"/>
 </classpath>
