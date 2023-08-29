@@ -6,6 +6,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+
+	<classpathentry kind="src" path="EAL/URMIN"/>
+
 	<classpathentry kind="src" path="ShanuTask/src"/>
-	<classpathentry kind="output" path="bin"/>
+
 </classpath>
