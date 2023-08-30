@@ -6,7 +6,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+
+	<classpathentry kind="src" path="EAL/URMIN"/>
+
 	<classpathentry kind="src" path="ShanuTask/src"/>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="Maria&apos;s_assignment"/>
 	<classpathentry kind="output" path="bin"/>
+=======
+
+>>>>>>> branch 'master' of https://github.com/ealteacher1/EAL_B2_Homework.git
 </classpath>
