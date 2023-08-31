@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	//check next 2 example ss for reference
 	
 	Object[][]Array2=abc();
-	for(Object[]arl:Array2) {
+	for(Object[] arl:Array2) {
 	for(Object ar2:ar1) {
     	 System.out.println(ar2);
      }
@@ -22,7 +22,7 @@ public static void main(String[] args) {
 
 	public static Object[][]abc(){
 		Object teodimarry[][]= {{1,"Lubna"},{2,"Mojumder"}};
-		return twodimarray;
+		return teodimarray;
 		
 	}
 	}
