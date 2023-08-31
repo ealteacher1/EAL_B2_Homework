@@ -1,4 +1,4 @@
-package Student_Muhsina;
+package Class33;
 
 import class29.Method_in_Java;
 
@@ -29,11 +29,6 @@ public class Class33_S6_T2_Test extends Method_in_Java {
 		
 		
 
-	}
-
-	private void ProfitOfCompany() {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
