@@ -32,7 +32,7 @@ something */
 			}
 		}
 	}
-	 void method1() {
+	public void method1() {
 		System.out.println("method with no args/return");
 
 }
