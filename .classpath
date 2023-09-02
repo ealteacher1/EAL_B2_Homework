@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-<<<<<<< HEAD
-	<classpathentry kind="src" path="EAL/URMIN"/>
-=======
-	<classpathentry kind="src" path="ShanuTask/src"/>
->>>>>>> branch 'master' of https://github.com/ealteacher1/EAL_B2_Homework.git
-	<classpathentry kind="output" path="bin"/>
-</classpath>
+
